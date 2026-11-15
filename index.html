@@ -271,7 +271,7 @@ function useSynth() {
   return [on, start, stop];
 }
 
-const SONG = 'song.mp3'; /* put your song file named song.mp3 next to index.html */
+const SONG = 'song.mp3.mpeg'; /* put your song file named song.mp3 next to index.html */
 function useMusic() {
   const [, sStart, sStop] = useSynth();
   const [on, setOn] = useState(false); const a = useRef(null); const mode = useRef('');
